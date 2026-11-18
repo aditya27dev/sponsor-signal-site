@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy policy · Sponsor Signal</title>
-  <meta name="description" content="Sponsor Signal does not collect, store or transmit any personal data.">
+  <meta name="description" content="Sponsor Signal reads job pages only on your device to show its sponsor badge. Nothing is sent to us or anyone else.">
   <link rel="icon" href="../icon.png">
   <link rel="stylesheet" href="../style.css">
 </head>
@@ -13,27 +13,44 @@
   <header><img src="../icon.png" alt=""><a href="../">Sponsor Signal</a></header>
 
   <h1>Privacy policy</h1>
-  <p class="muted">Last updated: 17 November 2026</p>
+  <p class="muted">Last updated: 18 November 2026</p>
 
-  <div class="card"><strong>Sponsor Signal does not collect, store or transmit any personal data.</strong>
-    No accounts, analytics, advertising or third parties.</div>
+  <div class="card"><strong>Sponsor Signal reads job pages to show its sponsor badge. Everything
+    happens on your device:</strong> nothing about you or the pages you view is sent to us or to
+    anyone else. No accounts, analytics, advertising or third parties.</div>
 
-  <h2>What it reads</h2>
+  <h2>What it reads (website content)</h2>
   <p>On job pages (LinkedIn, Indeed, the job boards listed in the Chrome Web Store description,
     and, only if you turn it on, other sites that publish job data), the extension reads the
-    employer name, advertised salary and job description. This happens only in your browser, to
-    show the sponsor badge. It does not read your profile, messages or browsing history.</p>
+    employer name, advertised salary and job description. It does not read your profile,
+    messages, form entries or browsing history.</p>
+
+  <h2>How it uses it</h2>
+  <p>Only to show the badge: it looks up the employer in the Home Office register, checks the
+    salary against the Skilled Worker thresholds, and scans the description for wording about
+    visa sponsorship or recruitment agencies. All of this runs locally in your browser.</p>
+
+  <h2>What it keeps</h2>
+  <p>Job page content is not saved. Recent employer lookups are kept in memory to avoid repeating
+    them, and are cleared when the browser closes. The extension also stores a copy of the public
+    sponsor register in your browser's local storage (IndexedDB) so lookups work offline.
+    Uninstalling the extension deletes it.</p>
 
   <h2>What it sends</h2>
-  <p>Nothing about you or the pages you view leaves your browser. Once a day the extension
-    downloads the public Register of licensed sponsors from GOV.UK (<code>www.gov.uk</code> and
+  <p>Nothing about you or the pages you view. Once a day the extension downloads the public
+    Register of licensed sponsors from GOV.UK (<code>www.gov.uk</code> and
     <code>assets.publishing.service.gov.uk</code>). These requests contain no information about you
     beyond what any web request includes, such as your IP address, which GOV.UK may log under its
     own privacy notice.</p>
 
-  <h2>What it stores</h2>
-  <p>A copy of the public sponsor register, kept in your browser's local storage (IndexedDB) so
-    lookups work offline. Uninstalling the extension deletes it.</p>
+  <h2>Selling and sharing</h2>
+  <p>Data is never sold, transferred, used for advertising, or used to determine creditworthiness
+    or for lending.</p>
+
+  <h2>Limited Use</h2>
+  <p>Sponsor Signal's use of information it reads from web pages complies with the
+    <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq">Chrome Web Store User Data Policy</a>,
+    including the Limited Use requirements.</p>
 
   <h2>Contact</h2>
   <p>Questions: <a href="mailto:support@adityabatra.dev">support@adityabatra.dev</a></p>
